@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JavaScript</title>
+    <!-- css links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+  </head>
+  <body>
+    <div class="container text-center">
+
+      <h2 class="p-3">1.My First JavaScript</h2>
+      <p id="time">Click me to display Date and Time.</p>
+      <button type="button" class="btn btn-success" 
+      onclick="showDate()">Click Me!</button>     
+
+      <h2 class="p-3">2.Click the button to turn on/off the Bulb.</h2>
+      <button type="button" class="btn btn-success" onclick="bulbOn()">BulbOn</button>
+      <img id="img" src="images/bulboff.gif" alt="BulbOff">
+      <button type="button" class="btn btn-success" onclick="bulbOff()">BulbOff</button>
+
+      <h2 class="p-3">3.Click the button to change the Emoji.</h2>
+      <button type="button" class="btn btn-success" onclick="happyEmoji()">Happy Emoji</button>
+      <img id="img_2" class="w-25" src="images/happy.png" alt="happy">
+      <button type="button" class="btn btn-success" onclick="sadEmoji()">Sad Emoji</button>
+
+      <h2 class="p-3">4.What Can JavaScript Do?</h2>
+      <p id="text_2">JavaScript can change the style of an HTML element.</p>
+      <button type="button" class="btn btn-success"
+      onclick="showText_2()">Click Me!</button>
+
+      <h2 class="p-3">5.What Can JavaScript Do?</h2>
+      <p id="text_3">JavaScript can hide HTML elements.</p>
+      <button type="button" class="btn btn-success"
+      onclick="hideText()">Click Me!</button>
+
+      <h2 class="p-3">6.What Can JavaScript Do?</h2>
+      <p id="text">JavaScript can change HTML content.</p>
+      <button type="button" class="btn btn-success"
+      onclick="showText()">Click Me!</button>
+
+    </div>
+    <!-- script links -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
